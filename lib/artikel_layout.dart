@@ -12,7 +12,6 @@ class ArtikelLayout extends StatelessWidget {
       appBar: AppBar(
         title: Text(musik.nama),
         backgroundColor: Colors.black,
-
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1058605030978",
+    "project_id": "galeri-musik-679f5",
+    "storage_bucket": "galeri-musik-679f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058605030978:android:e8b3ced7b4abeba4d1d7db",
+        "android_client_info": {
+          "package_name": "com.example.flutter1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058605030978-7j2bfuar9fsia64s34dl539fo99n39vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter1",
+            "certificate_hash": "836959b587e4b1ed7b765ff54bd34663f1c7d8fa"
+          }
+        },
+        {
+          "client_id": "1058605030978-g1i7ebdgmqqqhjmrh0f8pge3vu2anq8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArAtZz0h863I6R-xKFD61VukAXWvDwvq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058605030978-g1i7ebdgmqqqhjmrh0f8pge3vu2anq8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

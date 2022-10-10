@@ -62,4 +62,9 @@ List<Musik> dataMusik = [
       nama: "Lynyrd Skynyrd - Free Bird",
       deskripsi: "Ini deskripsi",
       album: "(pronounced 'leh-'nrd 'skin-'nrd)"),
+  Musik(
+      gambar: "",
+      nama: "",
+      deskripsi: "",
+      album: ""),
 ];
