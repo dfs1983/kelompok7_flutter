@@ -12,6 +12,14 @@ class ArtikelLayout extends StatelessWidget {
       appBar: AppBar(
         title: Text(musik.nama),
         backgroundColor: Colors.black,
+        actions: [
+          IconButton(
+              icon: Icon(
+                  Icons.more_vert,
+                  size: 34.0),
+              onPressed: (){},
+          ),
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,9 +36,10 @@ class ArtikelLayout extends StatelessWidget {
           Padding(padding: EdgeInsets.fromLTRB(15, 10, 15, 15),
             child: Text(musik.deskripsi,
             style: const TextStyle(fontSize: 13), softWrap: true,),
-          )
+          ),
         ],
       ),
+
     );
   }
 }

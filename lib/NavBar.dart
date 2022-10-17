@@ -1,6 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter1/about.dart';
+import 'package:flutter1/favorite.dart';
+import 'package:flutter1/profile.dart';
 import 'package:flutter1/screens/signin_screen.dart';
 // ignore: depend_on_referenced_packages
 import 'package:share_plus/share_plus.dart';
@@ -26,22 +29,26 @@ class NavBar extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text("Favorites"),
-            onTap: () => null,
+            leading: Icon(Icons.account_circle),
+            title: Text("Profile"),
+            onTap: () => {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Profile()))
+            },
           ),
           ListTile(
-            leading: Icon(Icons.share),
-            title: Text("Share"),
-            onTap: () => null,
-          //Share.share("https");
-          //},
+            leading: Icon(Icons.favorite),
+            title: Text("Favorite"),
+            onTap: () => {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Favorite()))
+            },
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.description),
-            title: Text("Policy"),
-            onTap: () => null,
+            title: Text("About"),
+            onTap: () => {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => About()))
+            },
           ),
           ListTile(
             leading: Icon(Icons.exit_to_app),

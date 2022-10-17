@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter1/NavBar.dart';
+import 'package:flutter1/add_lyric.dart';
 import 'package:flutter1/artikel_layout.dart';
 import 'package:flutter1/musik.dart';
 import 'package:flutter1/screens/signin_screen.dart';
@@ -46,14 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _counter++;
     });
-    void iconButtonHandler() {
-      scaffoldKey.currentState.showSnackBar(
-        SnackBar(
-          content: Text('Icon Button'),
-          duration: Duration(seconds: 1),
-        ),
-      );
-    }
   }
 
   @override
@@ -65,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.black,
       ),
       body: ListView.builder(
-        child: CircularProgressIndicator(color: Colors.purple,),
+        //child: CircularProgressIndicator(color: Colors.purple,),
         itemCount: dataMusik.length,
         itemBuilder: (context, index) {
           return GestureDetector(
@@ -98,9 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       Padding(
                           padding: EdgeInsets.fromLTRB(10, 1, 1, 1),
                           child: Text(dataMusik[index].album)),
-                      IconButton(
-                          onPressed: iconButtonHandler,
-                          icon: Icon(Icons.add))
                     ],
                   ),
                 ],
@@ -108,6 +98,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           );
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const AddLyric()));
+        },
+        child: const Icon(Icons.add),
       ),
     );
   }
