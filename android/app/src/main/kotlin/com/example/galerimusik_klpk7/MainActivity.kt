@@ -1,4 +1,4 @@
-package com.example.flutter1
+package com.example.galerimusik_klpk7
 
 import io.flutter.embedding.android.FlutterActivity
 

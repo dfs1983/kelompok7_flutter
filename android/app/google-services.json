@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "1058605030978",
-    "project_id": "galeri-musik-679f5",
-    "storage_bucket": "galeri-musik-679f5.appspot.com"
+    "project_number": "40026187785",
+    "project_id": "galerimusik7",
+    "storage_bucket": "galerimusik7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1058605030978:android:e8b3ced7b4abeba4d1d7db",
+        "mobilesdk_app_id": "1:40026187785:android:dffcc1d5a68fe270a670d8",
         "android_client_info": {
-          "package_name": "com.example.flutter1"
+          "package_name": "com.example.galerimusik_klpk7"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1058605030978-7j2bfuar9fsia64s34dl539fo99n39vh.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.flutter1",
-            "certificate_hash": "836959b587e4b1ed7b765ff54bd34663f1c7d8fa"
-          }
-        },
-        {
-          "client_id": "1058605030978-g1i7ebdgmqqqhjmrh0f8pge3vu2anq8g.apps.googleusercontent.com",
+          "client_id": "40026187785-4oqcls7oj486edmmj33kc8s0cj5nqjss.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyArAtZz0h863I6R-xKFD61VukAXWvDwvq0"
+          "current_key": "AIzaSyB4pep2YG63c7yA8ybdIyWs0qoTwGRJ_us"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1058605030978-g1i7ebdgmqqqhjmrh0f8pge3vu2anq8g.apps.googleusercontent.com",
+              "client_id": "40026187785-4oqcls7oj486edmmj33kc8s0cj5nqjss.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
